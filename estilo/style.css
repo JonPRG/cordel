@@ -63,8 +63,21 @@ section > p{
 }
 
 section.normal{
-    background-image: linear-gradient(#c9ad90, #cecabb, #ecf1ec);
+    background-color: white;
+    /*background-image: linear-gradient(#c9ad90, #cecabb, #ecf1ec);*/
     color: black;
+}
+
+section#grad01{
+    background-image: linear-gradient(#daa56d, #c9ad90);
+}
+
+section#grad02{
+    background-image: linear-gradient(#c9ad90, #cecabb);
+}
+
+section#grad03{
+    background-image: linear-gradient(#cecabb, #ecf1ec);
 }
 
 section.imagem{
